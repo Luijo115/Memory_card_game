@@ -114,7 +114,7 @@ class MemoryGame:
         
         self.username = username
         self.update_ui()
-
+    # en lo que dice async eso es para poder voltear las cartas solas, y eso yo lo busque con ai
     async def flip_card(self, e, index):
         if len(self.selected_cards) < 2 and index not in self.flipped_cards and index not in self.matched_pairs:
             self.selected_cards.append(index)
