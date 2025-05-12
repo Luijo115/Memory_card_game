@@ -2,7 +2,7 @@ import flet as ft
 import random
 import os
 import asyncio
- 
+# lo de asyncio e dique pa voltear las cartas solas, eso yo lo saque de ai
 class MemoryGame:
     def __init__(self, page):
         self.page = page
